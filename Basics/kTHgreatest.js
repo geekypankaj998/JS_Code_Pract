@@ -55,7 +55,9 @@ while(count<times){
     console.log('Yes this can be searched');
    }
    console.log('The answer is : ',uniqueArr[uniqueArr.length-1-greatestVal+1]);
+   alert('The answer is : '+ uniqueArr[uniqueArr.length-1-greatestVal+1]);
    count++;   
   
 }
+alert('End');
 
